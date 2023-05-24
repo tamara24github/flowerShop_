@@ -1,0 +1,175 @@
+body {
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-family: Mate SC;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-family: Mate SC;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-family: Mate SC;
+}
+
+h3:hover {
+  color: #ff0000;
+}
+
+p {
+  padding-bottom: 2.5%;
+  font-size: 1.2rem;
+}
+
+/* colors */
+.colored-sections {
+  background-color: #8c0000;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* containers section*/
+.container-fluid {
+  text-align: center;
+  align-items: center;
+  padding: 2% 13%;
+}
+
+#commercial .container-fluid {
+  padding: 9% 13%;
+}
+
+/* title section*/
+#title {
+  background-image: url('flora-slika.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.title1 {
+  padding: 1% 16% 6%;
+}
+
+/* navbar section*/
+.navbar {
+  padding-bottom: 5rem;
+  font-family: Architects Daughter;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.5rem;
+  color: #FAF3F3;
+}
+
+.navbar-brand {
+  font-family: Architects Daughter;
+  font-size: 3rem;
+}
+
+/* commercial section */
+.commercial-img {
+  border-radius: 100%;
+  width: 310px;
+  height: 220px;
+  margin: 10% 0;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.commercial-text {
+  padding: 1% 15%;
+}
+
+/* testimonials section */
+.img-testimonial {
+  margin: 20px 4px 20px 0;
+  width: 270px;
+  height: 250px;
+  border-radius: 5%;
+}
+
+/* pricing section */
+.pricing-cards {
+  margin-top: 5%;
+}
+
+.pricing-img {
+  width: 60%;
+  
+  margin: 7% 0 10%;
+}
+
+.btn-pricing:hover {
+  background-color: #000;
+}
+
+.card-head {
+  background-color: #FAF3F3;
+}
+
+.card-headings {
+  margin: 7% 0;
+  font-size: 2rem;
+}
+
+.Pricing-text {
+  margin: 6% 0;
+}
+
+/* shoping & booking section */
+.shoping-button {
+  margin: 5% 4% 5% 0;
+  font-weight: 600;
+  font-size: 1.7rem;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff600;
+}
+
+/* post office section */
+.post-logo {
+  width: 11%;
+  margin: 4% 5% 0 0;
+}
+
+/* footer section */
+.foot-img {
+  font-size: 1.5rem;
+  margin: 1.5% 1%;
+}
+
+/* media query section*/
+@media (max-width:1283px) {
+  .pricing-cards {
+    width: 90%;
+  }
+
+  .pricing-img {
+    margin: 7% 0 10%;
+    width: 80%;
+  }
+
+  .commercial-col {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .commercial-img {
+    margin: 2%;
+    order: -1;
+  }
+
+  .shoping-button {
+    width: 49%;
+    margin: 1% 1%;
+  }
+}
